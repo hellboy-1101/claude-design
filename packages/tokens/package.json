@@ -1,0 +1,18 @@
+{
+  "name": "@workspace/tokens",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "description": "DTCG 2025.10 design tokens (SSOT). OKLCH-only colors.",
+  "files": [
+    "*.json"
+  ],
+  "exports": {
+    "./color.light": "./color.light.json",
+    "./color.dark": "./color.dark.json",
+    "./typography": "./typography.json",
+    "./spacing": "./spacing.json",
+    "./radius": "./radius.json",
+    "./motion": "./motion.json"
+  }
+}

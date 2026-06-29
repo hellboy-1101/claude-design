@@ -1,0 +1,11 @@
+{
+  "name": "@workspace/harness",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "description": "TS harness for design system: schema validation, drift detection, DESIGN.md auto-generate, a11y tests.",
+  "scripts": {
+    "design:export": "echo 'Phase 1 で実装: tokens → DESIGN.md + contracts/tokens.json'",
+    "design:check": "echo 'Phase 3 で実装: drift detection / rules validation'"
+  }
+}

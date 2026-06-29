@@ -1,0 +1,16 @@
+{
+  "name": "@workspace/contracts",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Design system contracts (rules + components) — derived from tokens, machine-readable for AI agents.",
+  "files": [
+    "*.json",
+    "components/*.json"
+  ],
+  "exports": {
+    "./rules": "./rules.json",
+    "./tokens": "./tokens.json",
+    "./components/*": "./components/*.json"
+  }
+}
